@@ -1,0 +1,14 @@
+The time: September 10 through Sunday, September 14, 2026
+The place: cooped up in my office with the cats, desperately hunched over my laptop
+
+My first CTF was less about solving challenges and more about understanding what I was even looking at.
+At the time, I didn’t fully understand what a “flag” was in the context of a CTF. I assumed it was something abstract or hidden behind layers of complexity. In reality, it’s just a string, typically formatted like:
+
+flag{example_flag}
+
+The goal is simple: get the program to reveal it. Which was simple when I finally realized what I was looking for, or at least, I could recognize that these challenges were meant to be beginner/mid level challenges and should be solvable if I could hack just a little bit. 
+
+The best tools I was introduced to in this CTF were Burpsuite and exiftool. What do you mean you can just change what you send to the website and interrupt the traffic to force a different page to show up? That's fantastic! This was such a novel concept that this was even possible to do, I spent half my time just playing around trying to force my way into the different parts of the test site. 
+As for exiftool, I was very familiar with using the CLI through my linux usage, but had never realized that you could look at the metadata on the file in the command line. It was great to learn about magic numbers and how to alter that to reveal anything and everything about the original image, or to corrupt the image to conceal the data. 
+
+The SANS BootUp CTF was the perfect start to my cyber career and to the concept of red teaming, even if I still hold that whoever thought up CTFs was a sadist because it was difficult. I pity anyone who didn't initially have coding experience. 
